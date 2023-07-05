@@ -1,0 +1,50 @@
+body{
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    bottom: 0px; 
+    min-height: 530px;
+    
+}
+.fatcontainer{
+    position: absolute;
+    top: 110px; 
+    left: 0px;
+    right: 0px;
+    bottom: 80px; 
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: azure;
+}
+
+fieldset{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+legend{
+    font-family: Century Gothic, sans-serif;
+    font-size: 40px;
+}
+.containerCrearLibro > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+}
+form{
+    font-size: 20px;
+    padding: 5px;
+    font-family: Century Gothic, sans-serif;
+    color: gray;
+
+}
+form 
+.textLabel{
+    padding-right: 20px;
+}

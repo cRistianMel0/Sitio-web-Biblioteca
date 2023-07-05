@@ -1,0 +1,89 @@
+@import url(https://weloveiconfonts.com/api/?family=brandico);
+/* brandico */
+@import url(https://weloveiconfonts.com/api/?family=zocial);
+[class*="brandico-"]:before {
+    font-family: 'brandico', sans-serif;
+}
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+  }
+  
+.brandico-facebook-rect{
+    font-style: normal;
+    margin-right: 10%;
+}
+.brandico-twitter-bird{
+    font-style: normal;
+    margin-right: 19%;
+}
+.zocial-googleplus{
+    font-style: normal;
+    margin-right: 15%;
+}
+body{
+    background-image: url("../img/imgInicioSesion/imagenFondo.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+span{
+    font-family: Century Gothic, sans-serif;
+}
+.fatcontainer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.877);
+    border-radius: 10px 10px 10px 10px;
+    text-align: center;
+    height: 400px;
+    width: 290px;
+}
+.social{
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+    display:block;
+    color:#ffffff;
+    height:40px;
+    font-size: 14px;
+    line-height:40px;
+    width: 260px;
+    text-decoration: solid;
+    text-align:center;
+    
+}
+.recuerdame{
+    font-size: 13px;
+}
+
+.inicioFacebook{
+    background-color: #3b5998;
+}
+.inicioTwitter{
+    background-color: #00acee;
+}
+.inicioGoogle{
+    background-color: #Db4a39;
+    color: white;
+}
+.boton{
+    size: 5px;
+}
+.correo{
+    border: 2px solid #555;
+    border-radius: 3px 3px 3px 3px ;
+    width: 240px;
+    height: 25px;
+    margin: 5px;
+}

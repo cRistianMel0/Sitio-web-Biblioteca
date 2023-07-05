@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    background-color: azure;
+}
+a{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+.navegador{
+    background: #AEAFB3;
+}
+.navegador li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    display: block;
+}
+.navegador li{
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+}
+.navegador li:hover{
+    background: #9c9b9b;
+}

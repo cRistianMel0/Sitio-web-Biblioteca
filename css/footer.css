@@ -1,0 +1,12 @@
+footer{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    height: 100px;
+    bottom: 0px;
+    background-color: #8fc2d8;
+    justify-content: center;
+    min-height: 80px;
+    text-align: center;
+    font-family: Century Gothic, sans-serif;
+}

@@ -1,0 +1,50 @@
+body{
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    bottom: 0px;  
+    min-height: 530px;
+    
+}
+.fatcontainer{
+    position: absolute;
+    top: 110px; 
+    left: 0px;
+    right: 0px;
+    bottom: 80px; 
+    background-color: azure;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: white;
+}
+table label{
+    padding-right: 30px;
+}
+legend{
+    font-family: Century Gothic, sans-serif;
+}
+.title{
+    font-family: Century Gothic, sans-serif;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+label{
+    font-family: Century Gothic, sans-serif;
+    padding-right: 20px;
+}
+.titulos{
+    font-weight:bolder;
+}
+.solicitarver{
+    background-color: transparent;
+}

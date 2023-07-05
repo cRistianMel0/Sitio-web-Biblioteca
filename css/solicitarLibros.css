@@ -1,0 +1,106 @@
+body{
+    position: absolute;
+    top: 0px; 
+    left: 0px;
+    right: 0px;
+    bottom: 0px;  
+    min-height: 530px;
+    min-width: 1500px;
+    
+}
+.fatcontainer{
+    position: absolute;
+    top: 110px; 
+    left: 0px;
+    right: 0px;
+    bottom: 80px; 
+    background-color: azure;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px 10px 10px 10px;
+    min-height: 40px;
+}
+.title{
+    font-family: Century Gothic, sans-serif;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+legend{
+    font-family: Century Gothic, sans-serif;
+}
+form{
+    font-family: Century Gothic, sans-serif; 
+}
+.tabla1{
+    margin-bottom: 30px;
+}
+.tabla1  td{
+    padding-right: 10px;
+}
+.searchbar{
+    border-radius: 10px 10px 10px 10px;
+}
+.tabla2 tr:nth-child(even) {
+    background-color: #D9D9D9;
+}
+.tabla2 tr:nth-child(3) {
+    background-color: rgb(255, 255, 255);
+}
+.tabla2 tr:nth-child(5) {
+    background-color: rgb(255, 255, 255);
+}
+a{ 
+    text-decoration: underline;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 0%;
+    text-align: center;
+    justify-content: center;
+    color: blueviolet; 
+}
+.pages{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+.tabla2{
+    font-family: Century Gothic, sans-serif;
+    border-collapse: collapse;
+}
+.tabla2  td{
+    border-right: 2px solid black;
+    padding-right: 15px;
+    border-left: 2px solid black;
+}
+.pages a:hover{
+    color: blue;
+}
+.verSolicitar a:hover{
+    color: blue;
+}
+.titleTabla2{
+    background-color: #A6A6A6;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+}
+.verSolicitar{
+    text-align: center;
+    justify-content: center;
+    background-color: azure;
+    border: none;
+}
+.tabla2 .verSolicitar{
+    border: none;
+}
+.bottomTable{
+    border-bottom: 2px solid black;
+}
